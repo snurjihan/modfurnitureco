@@ -1,9 +1,7 @@
-import express from 'express';
-import { createServer as createViteServer } from 'vite';
-import { GoogleGenAI } from '@google/genai';
-import dotenv from 'dotenv';
+import fs from 'fs';
 import path from 'path';
-import { fileURLToPath } from 'url';
+const filePath = path.join(process.cwd(), 'datasets', 'customer_data.csv', 'design_log.csv', 'financial_ledger.csv', 'hr_events_log.csv', 'hr_roster.csv', 'inventory_log.csv', 'orders_data.csv');
+const csvData = fs.readFileSync(filePath, 'utf-8');
 
 dotenv.config();
 
