@@ -1,0 +1,6 @@
+{
+  "name": "Modern Furniture Co. - Operations Dashboard & AI Agent",
+  "description": "Interactive Operations Dashboard and Intelligence Agent for Modern Furniture Co. to eliminate production bottlenecks, reduce late delivery penalties, and optimize staff allocation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
